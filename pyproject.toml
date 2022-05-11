@@ -8,7 +8,6 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "<empty>"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
