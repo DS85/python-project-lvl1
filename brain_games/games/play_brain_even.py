@@ -28,4 +28,5 @@ def play_brain_even():
         answer.lower()
 
         # Обрабатываем ответ
-        yes_count, rounds_count = check_answer(answer, correct_answer, yes_count, rounds_count)
+        yes_count, rounds_count = check_answer(
+            answer, correct_answer, yes_count, rounds_count)
