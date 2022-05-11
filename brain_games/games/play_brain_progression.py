@@ -21,7 +21,7 @@ def play_brain_progression():
 
         # Определеяем правильный ответ
         correct_answer = seq[hidden_i]
-        seq[hidden_i] = '...'
+        seq[hidden_i] = '..'
 
         # Задаем вопрос и получаем ответ
         print('Question:', *seq)
