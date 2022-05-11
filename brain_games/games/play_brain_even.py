@@ -1,11 +1,11 @@
 import random
 import prompt
-from brain_games.games.game_logics import *
+from brain_games.games.game_logics import greeting, check_answer
 
 
 def play_brain_even():
     # Приветствие и начало игры
-    name = greeting('Answer "yes" if the number is even, otherwise answer "no".')
+    greeting('Answer "yes" if the number is even, otherwise answer "no".')
     rounds_count = 0
     yes_count = 0
 
