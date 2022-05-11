@@ -6,5 +6,4 @@ jobs:
   lint:
     runs-on: macos-latest
     steps:
-      - run: make install
       - run: make lint
