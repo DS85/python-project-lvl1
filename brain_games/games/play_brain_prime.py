@@ -25,7 +25,7 @@ def play_brain_prime():
             correct_answer = 'yes'
 
         # Задаем вопрос и получаем ответ
-        print('Question: ', n)
+        print('Question:', n)
         answer = prompt.string('Your answer: ')
         answer.lower()
 

@@ -24,7 +24,7 @@ def play_brain_progression():
         seq[hidden_i] = '...'
 
         # Задаем вопрос и получаем ответ
-        print('Question: ', *seq)
+        print('Question:', *seq)
         answer = prompt.string('Your answer: ')
 
         # Обрабатываем ответ

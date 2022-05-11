@@ -23,7 +23,7 @@ def play_brain_even():
             correct_answer = 'no'
 
         # Задаем вопрос и получаем ответ
-        print('Question: ', n)
+        print('Question:', n)
         answer = prompt.string('Your answer: ')
         answer.lower()
 
