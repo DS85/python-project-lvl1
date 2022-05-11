@@ -10,3 +10,6 @@ The project Brain Games was created in educational purposes. It contains 5 cosol
 - brain-gcd - users find the greatest common divisor of given numbers.
 - brain-progression - users find a missin number in a progression.
 - brain-prime - users answer if a number is prime or not.
+
+## How to use
+[![asciicast](https://asciinema.org/a/8rLoUL9xtY6L3M5eCY6H9kdfT.svg)](https://asciinema.org/a/8rLoUL9xtY6L3M5eCY6H9kdfT)
