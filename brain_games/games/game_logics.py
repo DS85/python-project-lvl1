@@ -9,7 +9,7 @@ def greeting(string):
     return name
 
 
-def check_answer(answer, correct_answer, yes_count):
+def check_answer(answer, correct_answer, yes_count, rounds_count):
     global name
     # Если ответ правильный
     if str(answer) == str(correct_answer):
@@ -17,12 +17,13 @@ def check_answer(answer, correct_answer, yes_count):
         yes_count += 1
         if yes_count == 3:
             print(f'Congratulations, {name}!')
-            return yes_count
+            return (yes_count, rounds_count)
         else:
-            return yes_count
+            return (yes_count, rounds_count)
 
     # Если ответ неправильный:
     else:
         print(f"'{answer}', is wrong answer ;(. Correct answer was '{correct_answer}'")
         print(f"Let's try again, {name}!")
-        return yes_count
+        rounds_count = 3
+        return (yes_count, rounds_count)

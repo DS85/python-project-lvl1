@@ -30,4 +30,4 @@ def play_brain_prime():
         answer.lower()
 
         # Обрабатываем ответ
-        yes_count = check_answer(answer, correct_answer, yes_count)
+        yes_count, rounds_count = check_answer(answer, correct_answer, yes_count, rounds_count)

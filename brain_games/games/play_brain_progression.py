@@ -28,4 +28,4 @@ def play_brain_progression():
         answer = prompt.string('Your answer: ')
 
         # Обрабатываем ответ
-        yes_count = check_answer(answer, correct_answer, yes_count)
+        yes_count, rounds_count = check_answer(answer, correct_answer, yes_count, rounds_count)
