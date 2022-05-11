@@ -3,7 +3,14 @@ name: lint-check
 on: push
 
 jobs:
-  lint:
-    runs-on: macos-latest
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - run: make lint
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          make install
+      - name: Run linter and pytest
+        run: |
+          make lint
