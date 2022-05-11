@@ -16,7 +16,7 @@ def check_answer(answer, correct_answer, yes_count):
         print('Correct!')
         yes_count += 1
         if yes_count == 3:
-            print(f'Contgratulations, {name}!')
+            print(f'Congratulations, {name}!')
             return yes_count
         else:
             return yes_count
